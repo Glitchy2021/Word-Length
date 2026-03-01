@@ -1,0 +1,1 @@
+	In this program, the object was to find the specified text file and displays a word length count table of the text and then display the length. It also takes in account punctuation characters and not counted for the length of the word.
