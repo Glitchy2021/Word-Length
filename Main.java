@@ -22,10 +22,6 @@ public class Main {
     // -----------------------------------------------------------
     // Use array of size 16 (index values 0-15) to store the
     // number of words for words of length 1-15.
-    // 
-    // word_counts[1] stores the number of words of length 1,
-    // word_counts[2] stores the number of words of length 2, etc.
-    // (Note that word_counts[0] will not be used.)
     // -----------------------------------------------------------
     int[] word_counts = new int[16];
 
@@ -83,7 +79,6 @@ public class Main {
   // without the punctuation characters (e.g., "lake." and 
   // "lake," would both return as length 4.
   // -----------------------------------------------------------
-  // (TO COMPLETE)
   int WordNum;
   
     if (word.contains(",")||word.contains(".")||word.contains("?") )
@@ -103,7 +98,6 @@ public class Main {
   // -----------------------------------------------------------
   // Updates array word_counts for the word_length given.
   // -----------------------------------------------------------
-  // (TO COMPLETE)
   for(int k2 =1; k2 < word_counts.length; k2++)
   {
     if(word_length == k2)
@@ -127,7 +121,6 @@ public class Main {
   // Length 3 - 7
   // etc.
   // -----------------------------------------------------------
-  // (TO COMPLETE)
      for(int k3=1; k3 < word_counts.length; k3++)
      {
       System.out.println("Length "+ k3 + " - " + word_counts[k3] );
